@@ -15,6 +15,7 @@ const num2 = 5;
 
 // TODO
 let remainder;
+remainder = num1 % num2
 
 // export 를 수정하지 마세요.
 export { remainder };

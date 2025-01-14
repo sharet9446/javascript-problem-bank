@@ -8,6 +8,9 @@
 
 function reassignConst() {
   // TODO
+  const arr = [1, 2, 3]
+  arr = [4, 5, 6]
+
 }
 
 // export 를 수정하지 마세요.

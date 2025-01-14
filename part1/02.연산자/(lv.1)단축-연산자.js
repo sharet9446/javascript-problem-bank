@@ -23,12 +23,21 @@
 let increment = 0;
 let decrement = 0;
 
+increment += 1;
+decrement -= 1;
+
 const num1 = 10;
 
 let add = 0;
 let subtract = 20;
 let multiply = 1;
 let divide = 100;
+
+add += num1;
+subtract -= num1;
+multiply *= num1;
+divide /= num1;
+
 
 // export 를 수정하지 마세요.
 export { increment, decrement, add, subtract, multiply, divide };

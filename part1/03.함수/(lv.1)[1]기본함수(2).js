@@ -11,6 +11,7 @@
  */
 
 function greet(name) {
+  return `Hello, ${name}`
   // TODO: "Hello, {name}"을 반환
 }
 

@@ -17,32 +17,32 @@ const num1 = 10;
 const num2 = 20;
 
 // TODO: num1과 num2가 10보다 큰지 확인하는 연산을 수행하세요.
-let num1GreaterThan;
-let num2GreaterThan;
+let num1GreaterThan = num1 > 10;
+let num2GreaterThan = num2 > 10;
 
 // TODO: num1과 num2가 10보다 작은지 확인하는 연산을 수행하세요.
-let num1LessThan;
-let num2LessThan;
+let num1LessThan = num1 < 10;
+let num2LessThan = num2 < 10;
 
 // TODO: num1과 num2가 10보다 크거나 같은지 확인하는 연산을 수행하세요.
-let num1GreaterThanOrEqual;
-let num2GreaterThanOrEqual;
+let num1GreaterThanOrEqual = num1 >= 10;
+let num2GreaterThanOrEqual = num2 >= 10;
 
 // TODO: num1과 num2가 10보다 작거나 같은지 확인하는 연산을 수행하세요.
-let num1LessThanOrEqual;
-let num2LessThanOrEqual;
+let num1LessThanOrEqual = num1 <= 10;
+let num2LessThanOrEqual = num2 <= 10;
 
 // TODO: num1과 num2가 모두 10보다 큰지 확인하는 연산을 수행하세요.
-let bothGreaterThan;
+let bothGreaterThan = num1 > 10 && num2 > 10;
 
 // TODO: num1과 num2가 모두 10보다 작은지 확인하는 연산을 수행하세요.
-let bothLessThan;
+let bothLessThan = num1 < 10 && num2 < 10;
 
 // TODO: num1과 num2 중 하나라도 10보다 큰지 확인하는 연산을 수행하세요.
-let eitherGreaterThan;
+let eitherGreaterThan = num1 > 10 || num2 > 10;
 
 // TODO: num1과 num2 중 하나라도 10보다 작은지 확인하는 연산을 수행하세요.
-let eitherLessThan;
+let eitherLessThan = num1 < 10 || num2 < 10;
 
 // export 를 수정하지 마세요.
 export {

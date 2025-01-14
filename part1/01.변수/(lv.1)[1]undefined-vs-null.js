@@ -6,8 +6,8 @@
  * 2. nullVar: null 값을 명시적으로 할당한 변수를 선언하세요.
  */
 
-// undeclaredVar;
-// nullVar ;
+let undeclaredVar;
+let nullVar = null;
 
 // export 를 수정하지 마세요.
 export { undeclaredVar, nullVar };
