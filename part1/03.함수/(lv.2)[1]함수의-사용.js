@@ -28,13 +28,13 @@ const num1 = 10;
 const num2 = 5;
 
 // TODO: add 함수를 사용하세요.
-let result1;
+let result1 = add(num1, num2);
 // TODO: subtract 함수를 사용하세요.
-let result2;
+let result2 = subtract(num1, num2);
 // TODO: multiply 함수를 사용하세요.
-let result3;
+let result3 = multiply(num1, num2);
 // TODO: divide 함수를 사용하세요.
-let result4;
+let result4 = divide(num1, num2);
 
 // export 를 수정하지 마세요.
 export { result1, result2, result3, result4 };

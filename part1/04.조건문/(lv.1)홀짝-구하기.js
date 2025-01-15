@@ -10,6 +10,11 @@
 
 function isEvenOrOdd(num) {
   // TODO
+  if (num % 2) {
+    return "Odd"
+  } else {
+    return "Even"
+  }
 }
 
 // export 를 수정하지 마세요.

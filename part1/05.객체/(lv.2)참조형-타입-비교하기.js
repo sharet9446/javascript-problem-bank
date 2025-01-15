@@ -18,20 +18,22 @@ const person = {
 
 const person2 = {
   // TODO: person.name, person.age를 이용하여 프로퍼티 할당
+  name : person.name,
+  age : person.age,
 };
 
-let isSame;
+let isSame = person === person2;
 // TODO: person === person2 의 결과를 isSame에 할당
 
-let expected;
+let expected = isSame;
 // TODO: 위 비교의 결과(true 또는 false)에 대한 예상값을 expected에 할당
 
 const person3 = person;
 
-let isSame2;
+let isSame2 = person === person3;
 // TODO: person === person3 의 결과를 isSame2에 할당
 
-let expected2;
+let expected2 = isSame2;
 // TODO: 위 비교의 결과(true 또는 false)에 대한 예상값을 expected2에 할당
 
 // export를 수정하지 마세요.

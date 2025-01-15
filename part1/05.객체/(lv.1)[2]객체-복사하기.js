@@ -14,7 +14,8 @@ const obj = {
 };
 
 // TODO: spread 연산자를 이용하여 obj를 복사하고, age를 1 늘려주세요.
-const newObj = {};
+const newObj = {...obj};
+newObj.age += 1;
 
 // export 를 수정하지 마세요.
 export { obj, newObj };

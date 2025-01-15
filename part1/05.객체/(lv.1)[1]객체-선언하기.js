@@ -7,6 +7,8 @@
  */
 const person = {
   // TODO: name, age 프로퍼티를 각각 "Alice", 25로 설정하세요.
+  name : "Alice",
+  age : 25,
 };
 
 // export를 수정하지 마세요.

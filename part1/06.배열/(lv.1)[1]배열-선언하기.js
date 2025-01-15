@@ -7,7 +7,7 @@
  *
  * @returns {number[]} 1, 2, 3 요소를 담는 배열
  */
-const array = [];
+const array = [1, 2, 3];
 
 // export를 수정하지 마세요.
 export { array };

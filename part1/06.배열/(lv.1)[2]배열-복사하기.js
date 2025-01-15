@@ -14,7 +14,7 @@
 const array = [1, 2, 3];
 
 // TODO: spread 연산자를 사용하여 array 배열을 복사하고 4를 추가하세요.
-const newArray = [];
+const newArray = [...array, 4];
 
 // export를 수정하지 마세요.
 export { array, newArray };

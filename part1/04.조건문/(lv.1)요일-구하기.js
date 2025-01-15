@@ -11,6 +11,34 @@
  */
 function getDayName(dayNumber) {
   // TODO
+  let a
+  switch (dayNumber) {
+    case 1:
+      a = '월';
+      break;
+    case 2:
+      a = '화';
+      break;
+    case 3:
+      a = '수';
+      break;
+    case 4:
+      a = '목';
+      break;
+    case 5:
+      a = '금';
+      break;
+    case 6:
+      a = '토';
+      break;
+    case 7:
+      a = '일';
+      break;
+    default:
+      a = `Invalid`;
+      break;
+  }
+  return a
 }
 
 // export 를 수정하지 마세요.

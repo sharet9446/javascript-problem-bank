@@ -13,12 +13,14 @@ import { checkAdult } from "./(lv.2)[2]삼항-연산-함수.js";
 
 const price = 1000;
 const quantity = 3;
-let total;
+
+let total = calcTotal(price, quantity);
 
 const age = 19;
 const hasLicense = true;
-let canDriveResult;
-let adultResult;
+
+let canDriveResult = canDrive(age, hasLicense);
+let adultResult = checkAdult(age);
 
 // export 를 수정하지 마세요.
 export { total, canDriveResult, adultResult };
