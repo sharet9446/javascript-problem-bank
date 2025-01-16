@@ -8,8 +8,10 @@
  * @param {number[]} arr
  * @returns {number[]} 오름차순 정렬된 새 배열
  */
-function sortNumbers() {
+function sortNumbers(arr) {
   // TODO
+  let copyArr = [...arr]
+  return copyArr.sort((a, b) => a - b)
 }
 
 // export를 수정하지 마세요.
