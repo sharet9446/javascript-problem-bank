@@ -11,7 +11,7 @@
 let resolvePromise = new Promise(resolve => {
     resolve("Hello")
 });
-let rejectPromise = new Promise((resolve,reject) => {
+let rejectPromise = new Promise((resolve, reject) => {
     reject("Error!");
 });
 
