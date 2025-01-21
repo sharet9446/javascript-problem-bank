@@ -12,7 +12,12 @@
  */
 
 // TODO: getDataWithFallback 함수를 작성하세요.
-async function getDataWithFallback(primary, fallback) {}
+async function getDataWithFallback(primary, fallback) {
+    return new Promise((resolve, reject))
+    .then(await primary)
+    .console.error(fallback());
+    
+}
 
 // export를 수정하지 마세요.
 export { getDataWithFallback };
