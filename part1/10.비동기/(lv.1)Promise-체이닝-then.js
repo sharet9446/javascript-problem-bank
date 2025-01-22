@@ -19,6 +19,7 @@ async function getValueThenDouble() {
     .then(value =>
       value * 2
     )
+  // return await returnFive() * 2;
 }
 
 // export를 수정하지 마세요.

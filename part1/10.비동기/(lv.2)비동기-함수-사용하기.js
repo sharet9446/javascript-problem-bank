@@ -28,6 +28,8 @@ async function getUsers(fetchUsers) {
         loginName.push(login.name)
     })
     return loginName
+    // const res = await fetchUsers();
+    // return res.map(user => user.name);
 }
 
 // export를 수정하지 마세요.

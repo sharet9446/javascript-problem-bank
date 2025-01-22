@@ -9,7 +9,14 @@ function returnHello() {
     return new Promise(resolve => {
         resolve("Hello")
     })
+    // return Promise.resolve("Hello")
 }
+
+// const returnHello = () => Promise.resolve("Hello");
+
+// async function returnHello() {
+//     return "Hello";
+// }
 
 // export를 수정하지 마세요.
 export { returnHello };
