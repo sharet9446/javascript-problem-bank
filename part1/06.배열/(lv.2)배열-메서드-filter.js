@@ -10,14 +10,11 @@
  * @returns {number[]} 짝수 혹은 홀수만 담긴 새로운 배열
  */
 
-// TODO: filterEven 함수를 작성하세요.
 function filterEven(arr) {
-    return arr.filter(num => num % 2 === 0);
+  return arr.filter((number) => number % 2 === 0);
 }
-
-// TODO: filterOdd 함수를 작성하세요.
 function filterOdd(arr) {
-    return arr.filter(num => num % 2);
+  return arr.filter((number) => number % 2 !== 0);
 }
 
 // export를 수정하지 마세요.

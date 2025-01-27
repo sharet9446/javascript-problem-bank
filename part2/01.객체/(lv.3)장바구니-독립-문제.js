@@ -26,6 +26,7 @@ function fixCartReferenceIssue() {
   applyCoupon(userBCart, coupon);
   function applyCoupon(cart, discount) {
     // TODO
+    cart.items.map((item) => (item.price -= discount));
   }
 
   return { userACart, userBCart };

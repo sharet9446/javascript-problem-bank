@@ -8,7 +8,9 @@
  * @returns {*} 깊은 복사된 결과
  */
 
-function deepClone(obj) {}
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}
 
 // export 를 수정하지 마세요.
 export { deepClone };
