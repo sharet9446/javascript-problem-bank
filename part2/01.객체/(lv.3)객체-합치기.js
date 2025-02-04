@@ -17,7 +17,7 @@
  */
 
 function mergeObjects(...objs) {
-    return Object.assign({}, ...objs)
+  return Object.assign({}, ...objs);
 }
 
 // function mergeObjects(...objs) {

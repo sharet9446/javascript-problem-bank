@@ -15,7 +15,8 @@ function getFrequency(arr) {
   let map = new Map();
 
   arr.forEach((element) => {
-    map.set(element, (map.get(element) || 0) + 1);
+      map.set(element, (map.get(element) || 0) + 1);
+      
   });
 
   return Object.fromEntries(map);
