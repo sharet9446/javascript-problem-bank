@@ -10,7 +10,14 @@
  * @returns {any[][]}
  */
 
-function chunkArray(arr, size) {}
+function chunkArray(arr, size) {
+  let concatenatedArray = [];
+  for (let i = 0; i < arr.length; i) {
+    const dividedArray = arr.splice(i, i + size);
+    concatenatedArray.push(dividedArray);
+  }
+  return concatenatedArray;
+}
 
 // export 를 수정하지 마세요.
 export { chunkArray };
